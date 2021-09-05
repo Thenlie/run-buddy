@@ -9,6 +9,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/* header */
 header {
     padding: 20px 35px;
     background-color: #39a6b2
@@ -42,6 +43,7 @@ header nav ul li a {
     font-size: 22px;
 }
 
+/* footer */
 footer {
     background: #fce138;
     width: 100%;
@@ -69,7 +71,7 @@ section {
     padding: 60px;
 }
 
-/* hero style */
+/* hero */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
@@ -120,6 +122,7 @@ h3 {
     border: none;
 }
 
+/* titles */
 .section-title {
     font-size: 55px;
     color: #024e76;
@@ -137,6 +140,7 @@ h3 {
     border-color: #39a6b2;
 }
 
+/* intro */
 .intro {
     text-align: center;
 }
@@ -149,6 +153,7 @@ h3 {
     margin: 0 auto;
 }
 
+/* steps */
 .steps {
     text-align: center;
     background: #fce138;
