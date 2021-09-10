@@ -12,3 +12,5 @@ https://thenlie.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Leithen 
+
+### ©️2019 Run Buddy, Inc 
