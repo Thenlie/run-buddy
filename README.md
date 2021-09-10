@@ -1,4 +1,4 @@
-# Run Buddy Inc.
+# Run Buddy, Inc.
 
 ## Purpose
 A website the offers fitness training services (built for U of U coding bootcamp)
