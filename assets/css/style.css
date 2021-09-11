@@ -82,6 +82,25 @@ section {
     position: relative;
 }
 
+.hero-title {
+    width: 40%;
+    text-align: right;
+    margin-left: 200px;
+}
+
+.hero-title h2 {
+    color: #fce138;
+    font-size: 55px;
+    font-style: italic;
+    width: 75%;
+    float: right;
+}
+
+.hero-title p {
+    color: white;
+    float: right;
+}
+
 .hero-form {
     background-color: #fce138;
     padding: 20px;
@@ -93,7 +112,7 @@ section {
     right: 140px;
 }
 
-h3 {
+.hero-form h3 {
     margin: 0;
     font-size: 24px;
 }
