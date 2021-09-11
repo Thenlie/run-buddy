@@ -14,7 +14,10 @@ body {
 /* header */
 header {
     padding: 20px 35px;
-    background-color: #39a6b2
+    background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -22,7 +25,6 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
 }
 
 header a {
@@ -31,7 +33,6 @@ header a {
 }
 
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
@@ -82,7 +83,7 @@ section {
     position: relative;
 }
 
-.hero-title {
+/*.hero-title {
     width: 40%;
     text-align: right;
     margin-left: 200px;
@@ -100,7 +101,7 @@ section {
     color: white;
     float: right;
 }
-
+*/
 .hero-form {
     background-color: #fce138;
     padding: 20px;
