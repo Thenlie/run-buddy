@@ -1,8 +1,8 @@
 /* general */
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 /* body */
@@ -181,7 +181,7 @@ section {
     width: 80%;
     border-bottom: 1px solid #39a6b2;
     display: flex;
-    flex-wrap: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -352,6 +352,7 @@ section {
 
 /* media queries for smaller desktop screens */
 @media screen and (max-width: 980px) {
+    
     header {
         padding-bottom: 0;
         justify-content: center;
@@ -402,9 +403,62 @@ section {
 /* media queries for tablet screens */
 @media screen and (max-width: 768px) {
 
+    section {
+      padding: 30px 15px;
+    }
+  
+    .step h3 {
+      flex: 1 100%;
+      text-align: center;
+    }
+  
+    .step-info {
+      flex: 2 100%;
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .step-img {
+      flex: 0 32%;
+      margin-right: 0;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  
+    .step-text {
+      flex: 100%;  
+    }
+  
 }
 
 /* media queries for phone screens */
 @media screen and (max-width: 575px) {
 
+    .hero-form button {
+        width: 100%;
+    }
+
+    .section-title {
+        width: 95%;
+    }
+
+    .intro p {
+        width: 100%;
+    }
+
+    .trainer {
+        flex: 0 100%;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    .contact-info > * {
+        flex: 0 100%;
+    }
+
+    .contact-form {
+        order: 3;
+    }
 }
