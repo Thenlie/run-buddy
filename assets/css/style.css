@@ -59,6 +59,13 @@ header nav ul li a {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+header nav ul li a:hover {
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
 /* footer */
 footer {
     background: #fce138;
@@ -146,7 +153,13 @@ section {
     width: 100%;
     margin-bottom: 15px;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
 }
+
+    .form-input:focus {
+        background-color: rgba(255, 255, 255, 1);
+        outline: none;
+    }
 
 .hero-form label {
     margin: 0 5px;
@@ -159,6 +172,10 @@ section {
     font-size: 16px;
     border: none;
     border-radius: 10px;
+}
+
+.hero-form button:hover {
+    background-color: #39a6b2;
 }
 
 /* titles */
@@ -195,7 +212,7 @@ section {
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
-    border-bottom: 1px solid #39a6b2;
+    
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -237,6 +254,10 @@ section {
 
 .step-img img {
     max-width: 100%;
+}
+
+.step:not(:last-child) {
+    border-bottom: 1px solid #39a6b2;
 }
 
 /* trainers */
@@ -334,6 +355,12 @@ section {
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
 }
 
 .contact-form button {
@@ -345,6 +372,11 @@ section {
     padding: 15px 0;
     font-size: 16px;
     border-radius: 10px;
+}
+
+.contact-form button:hover {
+    color: #fce138;
+    background: #39a6b2;
 }
 
 /* utility */
@@ -388,7 +420,7 @@ section {
         justify-content: center;
     }
 
-    nav ul li a {
+    header nav ul li a {
         font-size: 20px;
     }
 
